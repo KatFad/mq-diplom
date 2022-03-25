@@ -9,6 +9,57 @@
 		<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="popup popup_hidden">
+		<div class="popup-container">
+				<button class="popup-close" type="button">
+						<span class="hidden-text">Закрыть окно</span>
+				</button>
+				<div class="feedback">
+						<header class="feedback-header">
+								<h3 class="feedback-title">Ваш фидбэк</h3>
+						</header>
+						<div class="feedback-content">
+								<form class="feedback-form">
+										<div class="feedback-page">
+												<div class="feedback-column">
+														<label class="feedback-label">Как часто вы заходите на сайт?</label>
+														<select class="feedback-field feedback-field-question">
+																<option value="feedback-field-question" selected>Почти каждый день</option>
+																<option value="feedback-field-question">Раз в несколько дней</option>
+																<option value="feedback-field-question">Раз в несколько недель</option>
+																<option value="feedback-field-question">Несколько раз в год</option>
+														</select>
+
+												</div>
+												<div class="feedback-column">
+														<label class="feedback-label">Вы подписаны на e-mail рассылку?</label>
+														<div class="feedback-row">
+																<label class="feedback-radio">
+																		<input class="feedback-field feedback-field-radio" type="radio"  name="radio" required>
+																		<span class="feedback-radio-text">Да</span>
+																</label>
+																<label class="feedback-radio">
+																		<input class="feedback-field feedback-field-radio" type="radio"  name="radio" required>
+																		<span class="feedback-radio-text">Нет</span>
+																</label>
+														</div>
+												</div>
+												<div class="feedback-column">
+														<label class="feedback-label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
+														<textarea class="feedback-field feedback-field-text"  placeholder="Может, больше рецептов?" name="text" required></textarea>
+												</div>
+												<div class="feedback-button-send">
+														<button class="feedback-button" type="submit">
+																<span class="feedback-button-label">Отправить</span>
+														</button>
+												</div>
+										</div>
+								</form>
+						</div>
+				</div>
+
+		</div>
+</div>
 <header class="header">
 		<div class="container">
 				<div class="logo" >
