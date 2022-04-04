@@ -1103,6 +1103,8 @@ html {
     }
 
     .blog_text {
+        width: calc(100% - 40px);
+        word-wrap: break-word;
         margin-left: 20px;
         margin-right: 20px;
         padding: 40px 10px 20px 10px;
