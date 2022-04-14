@@ -702,7 +702,7 @@ html {
     width: 390px;
     margin-right: auto;
     margin-left: auto;
-    padding: 54px 30px;
+    padding: 31px 30px;
 }
 .feedback-column {
     display: flex;
@@ -762,8 +762,8 @@ html {
 }
 .feedback-field-text {
     padding-top: 20px;
-    width: 330px;
-    height: 130px;
+    height: 20.3vh;
+    max-height: 130px;
     resize: none;
 }
 .popup {
@@ -802,6 +802,7 @@ html {
     position: absolute;
     top: calc(-1.5em - 8px);
     right: 0;
+
 
 }
 .popup_hidden {
@@ -928,8 +929,9 @@ html {
     }
 
     .main {
-        width: 56%;
+        width: 100%;
         margin-bottom: 40px;
+        margin-right: 35px;
     }
 
     .content-image {
@@ -1002,12 +1004,10 @@ html {
         width: 23px;
         height: 23px;
         background-size: 23px;
-        background-image: url(../cvg/form-empty-circle.svg);
     }
 
 
     .popup-close::before {
-        background-image: url(../cvg/form-x.svg);
         background-size: 27px;
         width: 27px;
         height: 27px;
@@ -1125,8 +1125,9 @@ html {
     }
 
     .main {
-        width: 56%;
+        width: 100%;
         margin-bottom: 40px;
+        margin-right: 35px;
     }
 
     .content-image {
@@ -1194,22 +1195,22 @@ html {
     .socials {
         margin-bottom: 35px;
     }
-
+    .popup-container {
+        overflow: auto;
+        height: 90vh;
+        max-height: 551px;
+    }
     .feedback-radio-text:before {
         width: 23px;
         height: 23px;
         background-size: 23px;
-        background-image: url(../cvg/form-empty-circle.svg);
     }
 
-
     .popup-close::before {
-        background-image: url(../cvg/form-x.svg);
         background-size: 27px;
         width: 27px;
         height: 27px;
         top: calc(-2em - 8px);
-
     }
 
 
@@ -1448,20 +1449,44 @@ html {
     .socials {
         margin-bottom: 35px;
     }
-
+    .popup-container {
+        overflow: auto;
+        height: 90vh;
+        max-height: 551px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
     .feedback {
-        width: 360px;
+        width:100%;
+        max-width: 330px;
+        padding: 0px 24px;
+        padding-bottom: 30px;
     }
     .feedback-radio-text:before {
         width: 23px;
         height: 23px;
         background-size: 23px;
-        background-image: url(../cvg/form-empty-circle.svg);
+    }
+    .feedback-title {
+        font-size: 0.8rem;
+    }
+    .feedback-title:after {
+        margin-bottom: 25px;
+    }
+    .feedback-field {
+        margin-top: 8px;
+    }
+    .feedback-row {
+        margin-top: 5px;
+    }
+    .feedback-radio:nth-child(n+2) {
+        margin-left: 30px;
+    }
+    .feedback-radio-text:before {
+        margin-right: 7px;
     }
 
-
     .popup-close::before {
-        background-image: url(../cvg/form-x.svg);
         background-size: 27px;
         width: 27px;
         height: 27px;
@@ -1704,6 +1729,11 @@ html {
     .socials {
         margin-bottom: 35px;
     }
+    .popup-container {
+        overflow: auto;
+        height: 90vh;
+        max-height: 551px;
+    }
 
     .feedback {
         width: 360px;
@@ -1712,12 +1742,10 @@ html {
         width: 23px;
         height: 23px;
         background-size: 23px;
-        background-image: url(../cvg/form-empty-circle.svg);
     }
 
 
     .popup-close::before {
-        background-image: url(../cvg/form-x.svg);
         background-size: 27px;
         width: 27px;
         height: 27px;
