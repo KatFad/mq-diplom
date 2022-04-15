@@ -1195,9 +1195,10 @@ html {
     .socials {
         margin-bottom: 35px;
     }
-    .popup-container {
+
+    .feedback {
         overflow: auto;
-        height: 90vh;
+        height: 70vh;
         max-height: 551px;
     }
     .feedback-radio-text:before {
@@ -1450,18 +1451,19 @@ html {
         margin-bottom: 35px;
     }
     .popup-container {
-        overflow: auto;
-        height: 90vh;
-        max-height: 551px;
         margin-right: 15px;
         margin-left: 15px;
     }
     .feedback {
+        overflow: auto;
+        height: 80vh;
+        max-height: 551px;
         width:100%;
         max-width: 330px;
         padding: 0px 24px;
         padding-bottom: 30px;
     }
+
     .feedback-radio-text:before {
         width: 23px;
         height: 23px;
@@ -1491,7 +1493,6 @@ html {
         width: 27px;
         height: 27px;
         top: calc(-2em - 8px);
-
     }
 
 }
@@ -1729,13 +1730,11 @@ html {
     .socials {
         margin-bottom: 35px;
     }
-    .popup-container {
-        overflow: auto;
-        height: 90vh;
-        max-height: 551px;
-    }
 
     .feedback {
+        overflow: auto;
+        height: 70vh;
+        max-height: 551px;
         width: 360px;
     }
     .feedback-radio-text:before {
